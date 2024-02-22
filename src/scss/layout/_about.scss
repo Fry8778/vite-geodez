@@ -1,0 +1,59 @@
+.about {
+    display: grid;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+
+}
+
+
+.about__us {
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 25px;
+
+    @media screen and (max-width:1199px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+.geodesy__kfc { 
+    display: grid;
+    width: 70%;
+    height: auto;       
+    margin: 0 auto;
+    
+    @media screen and (min-width:1200px) {
+        width: 100%;       
+    }
+
+
+}
+
+.about__us__title {
+    display: grid;
+    align-items: start;
+    justify-items: start;
+
+    @media screen and (max-width:1199px) {
+        align-items: center;
+        justify-items: center;
+
+    }
+}
+
+.about__us__text {
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+

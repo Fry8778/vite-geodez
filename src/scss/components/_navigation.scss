@@ -1,0 +1,130 @@
+.nav__link--current {
+    color: currentColor;
+}
+
+.nav__list {
+    display: flex;
+    margin-left: 30px;
+
+
+    & .nav__item:not(:last-child) {
+        margin-right: 50px;
+
+    }
+
+    & .nav__link:hover,
+    & .nav__link:focus {
+        color: var(--accent-color);
+
+    }
+
+    & .nav__link {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--title-text-color);
+        transition: color var(--transition);
+       
+    }
+
+}
+
+.contacts {
+    display: flex;
+    margin-left: auto;
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        display: flex;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    @media screen and (max-width:767px) {
+        display: block;
+        margin-left: auto;
+
+    }
+
+
+    &__item {
+        &:not(:last-child) {
+            @media screen and (min-width:768px) {
+                margin-right: 50px;
+            }
+
+            @media screen and (max-width:767px) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    &__link__top {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--accent-color);
+        transition: color var(--transition);
+
+        &:hover,
+        &:focus {
+            color: var(--link-top-color);
+
+        }
+
+        @media screen and (min-width:1200px) {
+            font-size: 14px;
+        }
+
+    }
+}
+
+
+.contacts__icon {
+    margin-right: 10px;
+    fill: var(--icon-fill);
+
+}
+
+.contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.icon {
+    fill: var(--icon-fill);
+    transition: fill var(--transition);
+
+    &:hover,
+    &:focus {
+        fill: var(--primery-white-color)
+    }
+
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.nav__list {
+    @media screen and (max-width:1199px) {
+        display: none;
+
+    }
+
+}
+
