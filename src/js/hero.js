@@ -1,0 +1,10 @@
+document.querySelector('#hero').innerHTML =  `
+<section class="hero">
+    <div class="container hero_container">
+        <h1 class="hero-title">
+            Геологія та геодезія <br>
+            для Вашого успіху
+        </h1>
+    </div>
+</section>
+`
