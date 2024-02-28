@@ -5,7 +5,7 @@ document.querySelector('#job').innerHTML =  `
         <ul class="job__list">
             <li class="job__item">
                 <svg class="icon-job" width="50" height="50">
-                    <use href="./images/sprite.svg#icon-call"></use>
+                    <use href="../public/sprite/sprite.svg#icon-call"></use>
                 </svg>
                 <div class="job_wrapper">
                     <h2 class="job__title">Етап замовлення</h2>
@@ -17,7 +17,7 @@ document.querySelector('#job').innerHTML =  `
             </li>
             <li class="job__item">
                 <svg class="icon-job" width="50" height="50">
-                    <use href="./images/sprite.svg#icon-surveying"></use>
+                    <use href="../public/sprite/sprite.svg#icon-surveying"></use>
                 </svg>
                 <div class="job_wrapper">
                     <h2 class="job__title">Етап польовий</h2>
@@ -30,7 +30,7 @@ document.querySelector('#job').innerHTML =  `
             </li>
             <li class="job__item">
                 <svg class="icon-job" width="50" height="50">
-                    <use href="./images/sprite.svg#icon-laboratory"></use>
+                    <use href="../public/sprite/sprite.svg#icon-laboratory"></use>
                 </svg>
                 <div class="job_wrapper">
                     <h2 class="job__title">Етап лабораторний</h2>
@@ -41,7 +41,7 @@ document.querySelector('#job').innerHTML =  `
             </li>
             <li class="job__item">
                 <svg class="icon-job" width="50" height="50">
-                    <use href="./images/sprite.svg#icon-contract"></use>
+                    <use href="../public/sprite/sprite.svg#icon-contract"></use>
                 </svg>
                 <div class="job_wrapper">
                     <h2 class="job__title">Етап камеральний</h2>
@@ -53,7 +53,7 @@ document.querySelector('#job').innerHTML =  `
             </li>                   
             <li class="job__item">
                 <svg class="icon-job" width="50" height="50">
-                    <use href="./images/sprite.svg#icon-paper"></use>
+                    <use href="../public/sprite/sprite.svg#icon-paper"></use>
                 </svg>
                 <div class="job_wrapper">
                     <h2 class="job__title">Етап звіту</h2>

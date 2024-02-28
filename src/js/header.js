@@ -37,13 +37,13 @@ document.querySelector('#header').innerHTML =  `
             <li class="contacts__item">
                 <a href="mailto:den@klinch.ua" class="contacts__link__top">
                     <svg class="contacts__icon" width="16" height="12">
-                        <use href="./images/sprite.svg#icon-envelope"></use>
+                        <use href="../public/sprite/sprite.svg#icon-envelope"></use>
                     </svg>den@klinch.ua</a>
             </li>
             <li class="contacts__item">
                 <a href="tel:+380663790565" class="contacts__link__top">
                     <svg class="contacts__icon" width="10" height="16">
-                        <use href="./images/sprite.svg#icon-smartphone"></use>
+                        <use href="../public/sprite/sprite.svg#icon-smartphone"></use>
                     </svg>+38 066 379 05 65</a>
             </li>
         </ul>

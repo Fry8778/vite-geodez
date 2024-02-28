@@ -9,7 +9,7 @@
     background-image: linear-gradient(to right,
             rgba(70, 82, 90, 0.4),
             rgba(70, 82, 90, 0.4)),
-        url("../images/serv-480.png");
+        url("../public/images/serv/serv-480.png");
    
 
     @media screen and (min-width:767px) {      
@@ -18,7 +18,7 @@
             linear-gradient(to right,
                 rgba(70, 82, 90, 0.4),
                 rgba(70, 82, 90, 0.4)),
-            url("../images/serv-768.png");
+            url("../public/images/serv/serv-768.png");
     }
 
     @media screen and (min-width:768px) and (max-width:1199px) {        
@@ -28,7 +28,7 @@
             linear-gradient(to right,
                 rgba(70, 82, 90, 0.4),
                 rgba(70, 82, 90, 0.4)),
-            url("../images/serv-1536.png");
+            url("../public/images/serv/serv-1536.png");
     }
 
 
@@ -39,7 +39,7 @@
             linear-gradient(to right,
                 rgba(70, 82, 90, 0.4),
                 rgba(70, 82, 90, 0.4)),
-            url("../images/serv-2200.png");
+            url("../public/images/serv/serv-2200.png");
     }
 
 }

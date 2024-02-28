@@ -6,12 +6,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/amazon-244.jpg 244w,
-                        ./images/amazon-486.jpg 486w,
-                        ./images/amazon-730.jpg 730w,
-                        ./images/amazon-1120.jpg 1120w"
+                        <img srcset="../public/images/amazon/amazon-244.jpg 244w,
+                        ../public/images/amazon/amazon-486.jpg 486w,
+                        ../public/images/amazon/amazon-730.jpg 730w,
+                        ../public/images/amazon/amazon-1120.jpg 1120w"
                         sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                        src="./images/amazon-244.jpg" alt="Total station Amazon">                               
+                        src="../public/images/amazon/amazon-244.jpg" alt="Total station Amazon">                               
                         <div class="projects__text">
                             <p>
                                 Нивелювання підлог з метою розрахунку обсягу матеріалів для
@@ -32,12 +32,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/Building-244.jpg 244w,
-                        ./images/Building-486.jpg 486w,
-                        ./images/Building-730.jpg 730w,
-                        ./images/Building-1120.jpg 1120w"
+                        <img srcset="../public/images/building/Building-244.jpg 244w,
+                        ../public/images/building/Building-486.jpg 486w,
+                        ../public/images/building/Building-730.jpg 730w,
+                        ../public/images/building/Building-1120.jpg 1120w"
                            sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                            src="./images/Building-244.jpg"
+                            src="../public/images/building/Building-244.jpg"
                             alt="Total station against the background of a building">
                         <div class="projects__text">
                             <p>
@@ -59,12 +59,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/Eco-244.jpg 244w,
-                        ./images/Eco-486.jpg 486w,
-                        ./images/Eco-730.jpg 730w,
-                        ./images/Eco-1120.jpg 1120w"
+                        <img srcset="../public/images/eco/Eco-244.jpg 244w,
+                        ../public/images/eco/Eco-486.jpg 486w,
+                        ../public/images/eco/Eco-730.jpg 730w,
+                        ../public/images/eco/Eco-1120.jpg 1120w"
                            sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                            src="./images/Eco-244.jpg" alt="Solar panel">
+                            src="../public/images/eco/Eco-244.jpg" alt="Solar panel">
                         <div class="projects__text">
                             <p>
                                 Визначення місць, оптимального, розташування сонячних панелей
@@ -85,12 +85,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/factory-244.jpg 244w,
-                        ./images/factory-486.jpg 486w,
-                        ./images/factory-730.jpg 730w,
-                        ./images/factory-1120.jpg 1120w"
+                        <img srcset="../public/images/factory/factory-244.jpg 244w,
+                        ../public/images/factory/factory-486.jpg 486w,
+                        ../public/images/factory/factory-730.jpg 730w,
+                        ../public/images/factory/factory-1120.jpg 1120w"
                         sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                        src="./images/factory-244.jpg" alt="Conveyor on the factory">
+                        src="../public/images/factory/factory-244.jpg" alt="Conveyor on the factory">
                         <!-- size="(min-width:1200px) 730px, (min-width:786px) 486px, (min-width:480px) 244px, (max-width:480px) 100vw" -->
                         <div class="projects__text">
                             <p>
@@ -112,12 +112,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/field-244.jpg 244w,
-                        ./images/field-486.jpg 486w,
-                        ./images/field-730.jpg 730w,
-                        ./images/field-1120.jpg 1120w"
+                        <img srcset="../public/images/field/field-244.jpg 244w,
+                        ../public/images/field/field-486.jpg 486w,
+                        ../public/images/field/field-730.jpg 730w,
+                        ../public/images/field/field-1120.jpg 1120w"
                            sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                            src="./images/field-244.jpg" alt="Field">
+                            src="../public/images/field/field-244.jpg" alt="Field">
                         <div class="projects__text">
                             <p>
                                 Винесення меж земельних ділянок в натуру із встановленням межових знаків.
@@ -137,12 +137,12 @@ document.querySelector('#projects').innerHTML =  `
             <li class="card-item">
                 <div class="link projects__link">
                     <div class="projects__wrapper">
-                        <img srcset="./images/opera-244.jpg 244w,
-                        ./images/opera-486.jpg 486w,
-                        ./images/opera-730.jpg 730w,
-                        ./images/opera-1120.jpg 1120w"
+                        <img srcset="../public/images/opera/opera-244.jpg 244w,
+                        ../public/images/opera/opera-486.jpg 486w,
+                        ../public/images/opera/opera-730.jpg 730w,
+                        ../public/images/opera/opera-1120.jpg 1120w"
                            sizes="(min-width:1200px) 1120px, (min-width:786px) 730px, (min-width:480px) 486px, (max-width:480px) 100vw"
-                            src="./images/opera-244.jpg" alt="Fittings">
+                            src="../public/images/opera/opera-244.jpg" alt="Fittings">
                         <div class="projects__text">
                             <p>
                                 Контроль рівня висоти заливки фундаменту, відповідно до проектної документації.

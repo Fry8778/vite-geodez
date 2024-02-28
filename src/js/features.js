@@ -5,7 +5,7 @@ document.querySelector('#features').innerHTML =  `
         <ul class="features__list">
             <li class="features__item">
                 <svg class="features__icon" width="55" height="55">
-                    <use href="./images/sprite.svg#icon-construction"></use>
+                    <use href="../public/sprite/sprite.svg#icon-construction"></use>
                 </svg>
                 <h3 class="features__title">Високий професіоналізм</h3>
                 <p class="features__text">Наш колектив експертів володіє широким спектром знань у галузі
@@ -17,7 +17,7 @@ document.querySelector('#features').innerHTML =  `
             </li>
             <li class="features__item">
                 <svg class="features__icon" width="55" height="55">
-                    <use href="./images/sprite.svg#icon-land-surveyor"></use>
+                    <use href="../public/sprite/sprite.svg#icon-land-surveyor"></use>
                 </svg>
                 <h3 class="features__title">Сучасне обладнання</h3>
                 <p class="features__text">Наша компанія інвестує в сучасне топографічне та геологічне
@@ -29,7 +29,7 @@ document.querySelector('#features').innerHTML =  `
             </li>
             <li class="features__item">
                 <svg class="features__icon" width="60" height="60">
-                    <use href="./images/sprite.svg#icon-meeting"></use>
+                    <use href="../public/sprite/sprite.svg#icon-meeting"></use>
                 </svg>
                 <h3 class="features__title">Індивідуальний підхід</h3>
                 <p class="features__text">Ми розуміємо, що кожен проект важливий та унікальний. Наші фахівці
@@ -40,7 +40,7 @@ document.querySelector('#features').innerHTML =  `
             </li>
             <li class="features__item">
                 <svg class="features__icon" width="55" height="55">
-                    <use href="./images/sprite.svg#icon-quality"></use>
+                    <use href="../public/sprite/sprite.svg#icon-quality"></use>
                 </svg>
                 <h3 class="features__title">Гарантія якості</h3>
                 <p class="features__text">

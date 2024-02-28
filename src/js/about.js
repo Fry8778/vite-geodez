@@ -3,12 +3,12 @@ document.querySelector('#about').innerHTML =  `
             <div class="container about_company" id="About-us">
                 <ul class="about__us ">
                     <li class="about__us__wrapper">
-                        <img class="geodesy__kfc" srcset="./images/kfc-244.jpg 244w,
-                                ./images/kfc-486.jpg 486w,
-                                ./images/kfc-730.jpg 730w,
-                                ./images/kfc-1120.jpg 1120w"
+                        <img class="geodesy__kfc" srcset="../public/images/kfc/kfc-244.jpg 244w,
+                                ../public/images/kfc/kfc-486.jpg 486w,
+                                ../public/images/kfc/kfc-730.jpg 730w,
+                                ../public/images/kfc/kfc-1120.jpg 1120w"
                             sizes="(min-width:1200px) 730px, (min-width:786px) 244px, (min-width:480px) 244px, (max-width:480px) 100vw"
-                            src="./images/kfc-244.jpg" alt="Geodesy at KFC">
+                            src="../public/images/kfc/kfc-244.jpg" alt="Geodesy at KFC">
                     </li>
                     <li class="about__us__wrapper">
                         <h2 class="section-title about__us__title">Про нашу компанію</h2>

@@ -44,13 +44,13 @@ document.querySelector('#footer').innerHTML =  `
                 <li class="social-item">
                     <a href="https://www.instagram.com/geodez_one/" class="social-link"><svg class="icon-foot"
                             width="20" height="20">
-                            <use href="./images/sprite.svg#icon-instagram"></use>
+                            <use href="../public/sprite/sprite.svg#icon-instagram"></use>
                         </svg></a>
                 </li>
                 <li class="social-item">
                     <a href="https://t.me/d_kulinich" class="social-link"><svg class="icon-foot" width="20"
                             height="20">
-                            <use href="./images/sprite.svg#icon-telegram"></use>
+                            <use href="../public/sprite/sprite.svg#icon-telegram"></use>
                         </svg></a>
                 </li>
             </ul>
