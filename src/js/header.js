@@ -8,7 +8,7 @@ document.querySelector('#header').innerHTML =  `
             <ul class="nav__list">
                 <li class="nav__item">
                     <a href="#About-us" class="nav__link">
-                        Як ми прфцюємо
+                        Як ми прaцюємо
                     </a>
                 </li>
                 <li class="nav__item">
